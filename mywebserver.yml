@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i wnat to install webserver on ubuntu 16
+    apt:
+      name: apache2
+      state: persent
+  - name: i want to start webserver on ubuntu 16
+    service:
+      name: apache2
+      state: started
+    
