@@ -2,7 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: i want to install webserver on ubuntu 16
+  - name: i wnat to install webserver on ubuntu 16
     apt:
       name: apache2
       state: persent
