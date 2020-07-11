@@ -1,2 +1,7 @@
 ---
 # tasks file for mytom8onu16
+- include: myjavainstall.yml
+- include: mytomactgroupuser.yml
+- include: download.yml
+- include: extract.yml
+- include:
