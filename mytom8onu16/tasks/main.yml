@@ -4,4 +4,4 @@
 - include: mytomactgroupuser.yml
 - include: download.yml
 - include: extract.yml
-- include:
+- include: permissions.yml
