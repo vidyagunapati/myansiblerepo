@@ -4,5 +4,5 @@
     update_cache: yes
 - name: i want to install java
   apt:
-    name: default-jdk
-    state: present
+   name: default-jdk
+   state: present
