@@ -1,5 +1,5 @@
 ---
-- hosts: application
+- hosts: applications
   become: yes
   roles:
-    -{role: mytom8onu16, when: ansible_os_family=="Debian"}
+    - {role: mytom8onu16, when: ansible_os_family=="Debian"}
