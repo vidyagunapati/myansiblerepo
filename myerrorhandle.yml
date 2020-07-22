@@ -14,7 +14,7 @@
     apt:
       name: git
       state: present
-    when: myresult.stder == "{{myresult}}"
+    when: myresult.stder ==""
   
   - name: i want to install tree
     apt:
