@@ -6,4 +6,12 @@
       yum:
         name: git
         state: present
-    
+    - name: i want to install webserver on redhat
+      yum:
+        name: httpd
+        state: present
+    - name: i want to start services on redhat
+      yum:
+        name: httpd
+        state: started
+        
