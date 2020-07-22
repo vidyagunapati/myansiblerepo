@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: 172.31.7.88
   become: yes
   tasks:
   - name: 1st install git 
@@ -8,7 +8,7 @@
 
   - name: 2nd install tree
     apt:
-      nameeeeee: tree
+      name: tree
 
 
   - name: 3rd install wget
