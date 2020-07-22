@@ -1,0 +1,23 @@
+---
+- hosts: webserver
+  become: yes
+  tasks:
+  - name: i want to execute linux commands
+    command: hstname -f
+    register: myresult
+  
+  - name: i want to display above result
+    debug:
+      msg: "{{myresult}}"
+  
+  - name: i want to install git
+    apt:
+      name: git
+      state: present
+    when: myresult.stder == "{{myresult}}"
+  
+  - name: i want to install tree
+    apt:
+      name: tree
+      state: present
+    when: myresult.stderr !=""
