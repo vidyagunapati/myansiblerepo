@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: 172.31.7.88
   become: yes
   tasks:
   - name: 1st install git 
@@ -13,7 +13,7 @@
   - name: 3rd install wget
     apt:
       name: wget
-      
+
   - name: 4th install apache2
     apt:
       name: apache2
