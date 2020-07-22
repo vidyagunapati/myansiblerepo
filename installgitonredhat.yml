@@ -13,5 +13,4 @@
     - name: i want to start services on redhat
       yum:
         name: httpd
-        state: started
-        
+        state: present
