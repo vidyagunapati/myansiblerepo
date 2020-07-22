@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.7.88
+- hosts: webserver
   become: yes
   tasks:
   - name: 1st install git 
