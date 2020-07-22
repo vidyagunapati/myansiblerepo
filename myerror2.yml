@@ -5,12 +5,15 @@
   - name: 1st install git 
     apt:
       name: git
+
   - name: 2nd install tree
     apt:
       name: tree
+
   - name: 3rd install wget
     apt:
       name: wget
+      
   - name: 4th install apache2
     apt:
       name: apache2
