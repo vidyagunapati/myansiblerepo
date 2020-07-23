@@ -10,6 +10,6 @@
   
   - name: i want to install java on redhat
     apt:
-      name:"{{myjavaonredhat}}"
+      name: "{{myjavaonredhat}}"
       state: present
     when: ansible_os_family =="RedHat"
