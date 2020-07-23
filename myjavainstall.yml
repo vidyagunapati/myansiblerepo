@@ -2,14 +2,14 @@
 - hosts: webserver
   become: yes
   tasks:
-  - name: i wnt to install java on ubuntu
+  - name: i want to install java on ubuntu
     apt:
-      name: "{{myjavaonubuntu}}"
+      name: openjdk-8-jdk
       state: present
     when: ansible_os_family"== "Debian"
   
   - name: i want to install java on redhat
     apt:
-      name: "{{myjavaonredhat}}"
+      name: java-1.8.0-openjdk
       state: present
     when: ansible_os_family== "RedHat"
