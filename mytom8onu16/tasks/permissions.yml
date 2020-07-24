@@ -21,12 +21,7 @@
     mode: g+x
     group: tomcat
 
-- name:  change owner on  webapps
-  file:
-    path : /opt/tomcat/webapps/
-    state: directory
-    recurse: yes
-    owner: tomcat
+
 
 - name: change group work
   file:
