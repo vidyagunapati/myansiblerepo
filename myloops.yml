@@ -1,5 +1,5 @@
 ---
-- hosts: application
+- hosts: applications
   become: yes
   tasks:
   - name: loop
