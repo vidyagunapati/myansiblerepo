@@ -26,7 +26,7 @@
     path : /opt/tomcat/webapps/
     state: directory
     recurse: yes
-    owner: tomcat
+    owner: root
     mode: '0750'
 
 - name: change owner on work
