@@ -1,25 +1,25 @@
 ---
-studentdetails:
+studentDeatils: 
     - name: vidya
-      phone: 737373737373
-      course: devops
-      address:
+      phone: 8484848484
+      course:  devops
+      address: 
         - doorno: 267
-          street: 1st
+          Street:  1st
           pin: 500072
-    
+
     - name: venkat
-      phone: 83848484884
+      phone: 8989898989
       course: devops
-      address:
+      address: 
         - doorno: 268
-          street: 1st
+          Street:  1st
           pin: 500072
 
     - name: ramana
-      phone: 6364648848
+      phone: 8585858585
       course: devops
-      address:
+      address: 
         - doorno: 269
-          street: 1st
+          Street:  1st
           pin: 500072
