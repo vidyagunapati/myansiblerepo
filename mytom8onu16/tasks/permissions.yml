@@ -27,23 +27,23 @@
     state: directory
     recurse: yes
     owner: tomcat
-    group: tomcat
+    mode: '0750'
 
-- name: change group work
+- name: change owner on work
   file:
     path: /opt/tomcat/work/
     state: directory
     recurse: yes
     owner: tomcat
 
-- name: change group temp
+- name: change owner on temp
   file:
     path: /opt/tomcat/temp/
     state: directory
     recurse: yes
     owner: tomcat
 
-- name: change group logs
+- name: change owner on logs
   file:
     path: /opt/tomcat/logs/
     state: directory
