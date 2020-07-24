@@ -27,7 +27,7 @@
     state: directory
     recurse: yes
     group: tomcat
-    mode: '0750'
+    
 
 - name: change owner on work
   file:
