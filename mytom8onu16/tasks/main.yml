@@ -5,3 +5,4 @@
 - include: download.yml
 - include: extract.yml
 - include: permissions.yml
+- include: mytomconfig.yml
