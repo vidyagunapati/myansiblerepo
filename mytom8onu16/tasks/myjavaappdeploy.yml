@@ -1,0 +1,6 @@
+---
+- name: deploy my java application on my tomcat8 server(all nodes side)
+  get_url:
+    url:
+    dest:  /opt/tomcat/webapps/mahaLogin.war
+    force_basic_auth: yes

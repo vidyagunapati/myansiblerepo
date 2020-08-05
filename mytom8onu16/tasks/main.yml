@@ -8,3 +8,7 @@
 - include: mytomconfig.yml
 - include: mytomstart.yml
 - include: mytomuser.yml
+- include: mytommanger.yml
+- include: mytomrestart.yml
+- include: myjavaappdeploy.yml
+- include: mytomrestart.yml

@@ -1,0 +1,12 @@
+---
+- name: i want to copy manger file into node side
+  template:
+    src: templates/mytommanager.j2
+    dest: nano /opt/tomcat/webapps/manager/META-INF/context.xml
+    
+
+
+- name: i want to copy host manger file into node side
+  template:
+    src: templates/mytomhostmanager.j2
+    dest: nano /opt/tomcat/webapps/host-manager/META-INF/context.xml
