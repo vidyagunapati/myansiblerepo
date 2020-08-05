@@ -6,3 +6,5 @@
 - include: extract.yml
 - include: permissions.yml
 - include: mytomconfig.yml
+- include: mytomstart.yml
+- include: mytomuser.yml
